@@ -1,0 +1,2 @@
+//Redux as data layer
+Selectors to get data from data-layer
