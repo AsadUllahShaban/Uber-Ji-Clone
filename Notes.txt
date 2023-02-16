@@ -4,3 +4,9 @@ provides centralized store & simply the data flow
 actions are objects represents change in state
 reducers to implement change in store
 Selectors to get data from data-layer
+
+
+google direction api key
+AIzaSyDwWJ1Y3s9pzC4cDVtFrfL3mIGekg2_EUU
+
+yarn add react-native-dotenv
