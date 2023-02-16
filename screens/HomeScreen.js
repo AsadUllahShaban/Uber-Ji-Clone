@@ -43,7 +43,7 @@ const HomeScreen = () => {
                             })
                         );
 
-                        dispatch
+                        dispatch(setDestination(null));
 
                     }
                     }
