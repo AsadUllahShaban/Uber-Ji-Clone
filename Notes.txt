@@ -1,2 +1,6 @@
 //Redux as data layer
+redux is state management lib of js
+provides centralized store & simply the data flow
+actions are objects represents change in state
+reducers to implement change in store
 Selectors to get data from data-layer
