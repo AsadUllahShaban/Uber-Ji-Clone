@@ -10,4 +10,6 @@ eas build:configure -> will generate eas.json
 "android": {
                 "buildType": "apk"
             }
-eas build -p android --profile previe
+eas build -p android --profile preview
+
+keybaordAvoidingView from react-native

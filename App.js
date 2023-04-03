@@ -1,5 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, KeybaordAvoidingView, Platform } from 'react-native';
 import { Provider } from 'react-redux';
 import HomeScreen from './screens/HomeScreen';
 import MapScreen from './screens/MapScreen';
@@ -17,6 +17,7 @@ export default function App() {
         <Provider store={store}>
             <NavigationContainer>
                 <SafeAreaProvider>
+                    {/* <KeybaordAvoidingView style={{ flex: 1 }} behavior={Platform.OS = 'android' ? 'padding' : 'height'} > */}
                     <Stack.Navigator>
                         <Stack.Screen
                             name='HomeScreen'
@@ -40,6 +41,7 @@ export default function App() {
                             }}
                         />
                     </Stack.Navigator>
+                    {/* </KeybaordAvoidingView> */}
                 </SafeAreaProvider>
             </NavigationContainer>
         </Provider>
