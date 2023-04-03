@@ -1,0 +1,13 @@
+https://www.youtube.com/watch?v=bvn_HYpix6s&t=436s&ab_channel=SonnySangha
+https://github.com/Fatima-Mujahid/uber-clone/blob/main/components/Map.js
+
+expo start to build project and run on emulator via node server.
+
+yarn global add eas-cli/npm install -g eas-cli
+eas whoami
+eas build:configure -> will generate eas.json
+#Add this undeer 'preview' inside 'build'
+"android": {
+                "buildType": "apk"
+            }
+eas build -p android --profile previe
